@@ -1,5 +1,6 @@
 body{
     background-color: darkgray;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 h1{
@@ -12,14 +13,26 @@ h3{
 
 nav{
     background-color: black;
+    text-align: center;
+    padding: 10px;
 }
 
 nav a{
     color: aliceblue;
+    text-decoration: none;
+    margin: 15px;
 }
 
 section{
     background-color: greenyellow;
     padding: 20px;
     margin: 20px;
+}
+
+#inicio{
+    background-color: cornflowerblue;
+}
+
+.cabecalho{
+    text-align: center;
 }

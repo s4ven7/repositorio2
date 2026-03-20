@@ -1,0 +1,25 @@
+body{
+    background-color: darkgray;
+}
+
+h1{
+    color: cyan;
+}
+
+h3{
+    color: cyan;
+}
+
+nav{
+    background-color: black;
+}
+
+nav a{
+    color: aliceblue;
+}
+
+section{
+    background-color: greenyellow;
+    padding: 20px;
+    margin: 20px;
+}

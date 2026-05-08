@@ -9,14 +9,6 @@ body{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
-h1{
-    color: cyan;
-}
-
-h3{
-    color: cyan;
-}
-
 nav{
     background-color: black;
     text-align: center;
@@ -56,4 +48,25 @@ section:hover{
 main{
     max-width: 900px;
     margin: auto;
+}
+#habilidade{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-habilidades{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.card-habilidade{
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 180px;
+    border-radius: 10px;
+    text-align: center ;
+    min-height: 110px;
+    box-shadow: 6px 10px 15px rgba(0,0,0,1);
 }
